@@ -39,12 +39,29 @@ sudo apt-get install tshark
 Installation
 
 Clone the repository:
-git clone https://github.com/<your-username>/NetworkAnalyzer.git
+git clone https://github.com/chenthillinux/network_analyzer.git
 cd NetworkAnalyzer
 
 
-Install the required Python packages:
-pip install -r requirements.txt
+Install the required Python packages and OS should have tshark package .
+Package         Version
+--------------- -----------
+appdirs         1.4.4
+contourpy       1.3.3
+cycler          0.12.1
+fonttools       4.60.0
+kiwisolver      1.4.9
+lxml            6.0.1
+matplotlib      3.10.6
+numpy           2.3.3
+packaging       25.0
+pillow          11.3.0
+pip             24.0
+pyparsing       3.2.4
+pyshark         0.6
+python-dateutil 2.9.0.post0
+six             1.17.0
+termcolor       3.1.0
 
 
 Ensure your PCAP file and optional system files (/proc/interrupts, netstat -s) are accessible.
