@@ -81,7 +81,8 @@ Arguments
 
 Example
 Analyze a PCAP file with interrupt and netstat data:
-python3 network_analyzer.py capture.pcap --interrupts interrupts.txt --netstat netstat.txt --output-dir output
+
+# python3 network_analyzer.py capture.pcap --interrupts interrupts.txt --netstat netstat.txt --output-dir output
 
 This command:
 
